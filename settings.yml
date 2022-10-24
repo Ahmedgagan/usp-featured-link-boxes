@@ -1,0 +1,7 @@
+heading_text:
+  default: Explore latest research papers on our Analytical Hub
+display_on_mobile: true
+card_details:
+  default: >-
+    [{"card_title":"Application Notes","icon":"far-file-alt","url":"/docs?category=17", "open_in":"Same Window"}]
+  json_schema: '{"type":"array","format":"table","uniqueItems":true,"items":{"type":"object","properties":{"card_title":{"type":"string","minLength":1},"icon": {"type": "string"}, "url": {"type": "string"}, "open_in": {"type": "string", "enum": ["Same Window", "New Window"], "default": "Same Window"}},"additionalProperties":false}}'

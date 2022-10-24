@@ -1,0 +1,36 @@
+.usp-featured-boxes {
+  .featured-boxes-wrapper {
+    .featured-boxes-title {
+      .title {
+        margin-left: 0;
+      }
+    }
+
+    .boxes {
+      column-gap: 0.5rem;
+      .col {
+        max-width: calc(50% - 20px);
+        min-width: calc(50% - 20px);
+
+        .featured-box {
+          padding: 0.75rem 1rem;
+
+          .svg-icon {
+            font-size: var(--font-up-1);
+            color: var(--quaternary);
+          }
+
+          .box-title {
+            display: flex;
+            font-size: var(--font-down-1);
+            margin-left: 0.5rem;
+            height: 40px;
+            line-height: 20px;
+            -webkit-line-clamp: 2;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}

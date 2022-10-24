@@ -1,0 +1,15 @@
+.featured-boxes-wrapper {
+  .boxes {
+    justify-content: space-evenly;
+    overflow-y: hidden;
+    height: 70px;
+    margin: -2rem;
+    padding: 2rem 2rem 4rem 2rem;
+    row-gap: 10rem !important;
+
+    .col {
+      max-width: calc(350px * 0.75);
+      min-width: calc(350px * 0.75);
+    }
+  }
+}

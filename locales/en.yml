@@ -1,0 +1,6 @@
+en:
+  theme_metadata:
+    description: "This component adds a row of cards with custom links and text to site homepage."
+    heading_text: This text will be used as heading of the cards row/
+    display_on_mobile: Display on mobile devices?
+    card_details: Enter the details of each card (First 4 are will be picked).

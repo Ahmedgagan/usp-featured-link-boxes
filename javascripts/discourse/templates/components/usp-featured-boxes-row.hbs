@@ -1,0 +1,12 @@
+{{#if shouldDisplay}}
+  <div class="featured-boxes-wrapper">
+    <div class="featured-boxes-title">
+      <h3 class="title">{{heading_text}}</h3>
+    </div>
+    <div class="boxes">
+      {{#each cards as |card|}}
+        {{usp-featured-box card=card}}
+      {{/each}}
+    </div>
+  </div>
+  {{/if}}
