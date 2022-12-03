@@ -11,7 +11,7 @@ export default Component.extend({
   },
 
   get height() {
-    return Math.floor(JSON.parse(settings.card_details).length / 4) * 70;
+    return (1 || Math.floor(JSON.parse(settings.card_details).length / 4)) * 70;
   },
 
   get heading_text() {
