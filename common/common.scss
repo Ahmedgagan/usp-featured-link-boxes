@@ -35,6 +35,7 @@
             margin-left: 1rem;
             color: var(--primary);
             -webkit-line-clamp: 1;
+            white-space: nowrap;
             -webkit-box-orient: vertical;
             overflow: hidden;
             text-overflow: ellipsis;

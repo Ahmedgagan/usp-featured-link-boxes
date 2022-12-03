@@ -7,9 +7,11 @@ export default Component.extend({
   router: service("router"),
 
   get cards() {
-    let cards_data = JSON.parse(settings.card_details);
+    return JSON.parse(settings.card_details);
+  },
 
-    return cards_data.slice(0, 4);
+  get height() {
+    return Math.floor(JSON.parse(settings.card_details).length / 4) * 70;
   },
 
   get heading_text() {
